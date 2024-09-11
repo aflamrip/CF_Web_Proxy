@@ -7,7 +7,7 @@ export async function onRequest(context) {
         <meta name="description" content="This website helps you encode and fasten your download links.">
         <meta property="og:title" content="CF Web Proxy">
         <meta property="og:description" content="A web proxy solution built on Cloudflare Network">
-        <meta property="og:url" content="https://cf-web-proxy.pages.dev">
+        <meta property="og:url" content="https://l.mogcdn.com">
         <meta property="og:type" content="website">
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
@@ -177,15 +177,6 @@ export async function onRequest(context) {
         <div class="about">
           <h2>About</h2>
           <p>This website helps you encode and secure your download links</p>
-        </div>
-        <div class="github-star">
-          <a href="https://github.com/MinitorMHS/CF_web_proxy">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Icon" class="icon">
-          </a>
-          <button class="star-button" onclick="window.open('https://github.com/MinitorMHS/CF_Web_Proxy/stargazers')">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Plain_Yellow_Star.png" alt="Star Icon" class="icon"> Give a Star
-          </button>
-        </div>
         <form action="/proxy" method="get">
           <input type="text" name="url" placeholder="Enter URL" required aria-label="Enter URL">
           <button type="submit">Go</button>
