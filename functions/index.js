@@ -31,42 +31,6 @@ export async function onRequest(context) {
             text-align: center;
             width: 80%;
           }
-          .github-star {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-          }
-          .github-star a {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: inherit;
-          }
-          .github-star img {
-            margin-right: 8px;
-            width: 32px; /* Increased size */
-            height: 32px; /* Increased size */
-          }
-          .star-button {
-            background-color: #24292e; /* Reverted to black */
-            color: white;
-            border: none;
-            border-radius: 8px;
-            padding: 5px 10px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            display: flex;
-            align-items: center;
-            margin-left: 20px; /* Added space */
-          }
-          .star-button img {
-            margin-right: 5px;
-            width: 20px; /* Default size */
-            height: 20px; /* Default size */
-          }
-          .star-button:hover {
-            background-color: #444d56;
-          }
           form { 
             background-color: white; 
             padding: 20px; 
