@@ -186,7 +186,7 @@ export async function onRequest(context) {
           <a href="https://t.me/voduv" class="telegram-button"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Icon"> Contact me on Telegram</a>
         </div>
         <footer>
-          <p> 2024 CF Web Proxy. All rights reserved.</p>
+          <p> 2024 Mogcdn CF Proxy. All rights reserved.</p>
         </footer>
       </body>
     </html>
